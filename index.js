@@ -32,3 +32,12 @@ function guestPlus3() {
     guestScore.textContent = guestCount
 }
 
+function resetBtn(){
+    let homeCountReset = 0
+    let guestCountReset = 0
+    
+    homeCount = 0
+    guestCount = 0
+    homeScore.textContent = homeCountReset
+    guestScore.textContent = guestCountReset
+}
